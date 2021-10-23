@@ -1,0 +1,18 @@
+H e l  l  o    Wo r  l   d    !
+0,1,2,3,4,5,6,7,8,9,10,11
+
+T = abcabcaabaccabaab
+P = aab
+
+i = m - 1;//最後一項, 當作指針
+j = m - 1;//最後一項, 當作指針
+
+if T[i] = P[j] {
+  if j = 0 {
+      return i;
+  } else {
+      i = i - 1;
+      j = j - 1;
+  }
+}
+
